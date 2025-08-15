@@ -1,20 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>c-sn</title>
     <!--Favicon-->
     <link rel="shortcut icon" href="./imagas/favicon.ico" />
     <!--Styles-->
-    <link rel="stylesheet" href="./css/main.min.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+  <body>
     <header class="header">
-        <div class="header__container">
-            <img src="./images/logo.webp" alt="logo" width="90" height="50">
-            <button>Login</button>
+      <div class="header__container">
+        <img src="./images/logo.webp" alt="logo" width="90" height="50" />
+        <button class="header__login-btn" aria-label="Login to your account">
+          Login
+        </button>
+      </div>
+      <!--Login modal window-->
+      <div class="modal" id="loginModal" aria-hidden="true">
+        <div class="modal__overlay" tabindex="-1"></div>
+        <div
+          class="modal__content"
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby="loginTitle"
+        >
+          <button class="modal__close" aria-label="Close login form">
+            &times;
+          </button>
+          <h2 id="loginTitle">Login to your account</h2>
+          <form class="login-form">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required />
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required />
+
+            <button type="submit">Login</button>
+          </form>
         </div>
+      </div>
     </header>
-</body>
+
+    <script src="./js/login.js"></script>
+  </body>
 </html>

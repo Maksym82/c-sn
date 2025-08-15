@@ -1,0 +1,36 @@
+.modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1000;
+}
+
+.modal[aria-hidden="false"] {
+  display: block;
+}
+
+.modal__overlay {
+  position: absolute;
+  inset: 0;
+}
+
+.modal__content {
+  position: relative;
+  margin: 10% auto;
+  padding: 2rem;
+  background: #c2ab45;
+  max-width: 400px;
+  border-radius: 8px;
+  z-index: 1001;
+}
+
+.modal__close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
