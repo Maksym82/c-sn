@@ -169,7 +169,7 @@ input {
 }
 
 [class*=__container] {
-  max-width: 480px;
+  max-width: 375px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -194,7 +194,23 @@ input {
   margin: 0 auto;
   max-width: 480px;
   min-height: 510px;
+}
+
+.hero__container {
+  padding: 0;
+}
+
+.hero__title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.hero__image {
+  width: 100%;
   background-color: #808080;
+  margin-bottom: 24px;
 }
 
 .modal {

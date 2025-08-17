@@ -1,6 +1,22 @@
 .hero {
-    margin: 0 auto;
-    max-width: 480px;
-    min-height: 510px;
-    background-color: $colorGray;
+  margin: 0 auto;
+  max-width: 480px;
+  min-height: 510px;
+}
+
+.hero__container {
+    padding: 0;
+}
+
+.hero__title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.hero__image {
+  width: 100%;
+  background-color: $colorGray;
+  margin-bottom: 24px;
 }
