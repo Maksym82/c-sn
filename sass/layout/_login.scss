@@ -48,7 +48,7 @@
   border-color: #fdd835; /* ярко-жёлтый, как в GTA */
   box-shadow: 0 0 0 3px rgba(253, 216, 53, 0.3);
   outline: none;
-  background-color: #d73d3d;
+  // background-color: #d73d3d;
 }
 
 .login__form input::placeholder {
@@ -94,7 +94,7 @@ button[type="submit"] {
   position: relative;
   margin: 10% auto;
   padding: 2rem;
-  background: #c2ab45;
+  background-color: #8b7826;
   max-width: 400px;
   border-radius: 8px;
   z-index: 1001;
