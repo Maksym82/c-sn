@@ -1,0 +1,10 @@
+.hero {
+    margin: 0 auto;
+    max-width: 480px;
+    min-height: 400px;
+    background-color: $colorGray;
+    background-image: url('../../images/hero.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

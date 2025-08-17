@@ -190,6 +190,17 @@ input {
           justify-content: space-between;
 }
 
+.hero {
+  margin: 0 auto;
+  max-width: 480px;
+  min-height: 400px;
+  background-color: #808080;
+  background-image: url("../../images/hero.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .modal {
   display: none;
   position: fixed;
