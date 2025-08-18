@@ -169,7 +169,7 @@ input {
 }
 
 [class*=__container] {
-  max-width: 375px;
+  max-width: 767.98px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -197,6 +197,7 @@ input {
 
 .hero {
   margin: 0 auto;
+  padding-bottom: 80px;
   max-width: 480px;
   min-height: 510px;
 }
@@ -383,22 +384,21 @@ button[type=submit] {
 .mobile-nav {
   position: fixed;
   bottom: 0;
-  width: 100%;
-  background: #111;
+  min-width: 767.98px;
+  background-color: gray;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  padding: 8px 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 12px;
+  padding: 8px;
   border-top: 1px solid #333;
   z-index: 1000;
 }
 
 .nav-item {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
   text-align: center;
   color: #aaa;
   font-size: 12px;
@@ -423,7 +423,7 @@ button[type=submit] {
 
 /* Иконки — заменяй на свои SVG или base64 */
 .casino-icon {
-  background-image: url("icons/casino.svg");
+  background-image: url("../images/casino-icon.svg");
 }
 
 .menu-icon {
@@ -443,7 +443,7 @@ button[type=submit] {
 }
 
 .nav-item.active {
-  color: #FFD700;
+  color: #ffd700;
 }
 
 .nav-item.active .icon {
