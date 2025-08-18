@@ -378,4 +378,74 @@ button[type=submit] {
   border: none;
   font-size: 1.5rem;
   cursor: pointer;
+}
+
+.mobile-nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #111;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 8px 0;
+  border-top: 1px solid #333;
+  z-index: 1000;
+}
+
+.nav-item {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: center;
+  color: #aaa;
+  font-size: 12px;
+  border: none;
+  background: none;
+  padding: 6px 0;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+.nav-item .icon {
+  display: block;
+  width: 24px;
+  height: 24px;
+  margin: 0 auto 4px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0.6;
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+}
+
+/* Иконки — заменяй на свои SVG или base64 */
+.casino-icon {
+  background-image: url("icons/casino.svg");
+}
+
+.menu-icon {
+  background-image: url("icons/menu.svg");
+}
+
+.deposit-icon {
+  background-image: url("icons/deposit.svg");
+}
+
+.bonus-icon {
+  background-image: url("icons/bonus.svg");
+}
+
+.profile-icon {
+  background-image: url("icons/profile.svg");
+}
+
+.nav-item.active {
+  color: #FFD700;
+}
+
+.nav-item.active .icon {
+  opacity: 1;
 }/*# sourceMappingURL=main.css.map */
