@@ -399,12 +399,6 @@ button[type=submit] {
       flex-shrink: 1;
 }
 
-.navigation__container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 .nav-item {
   background: none;
   border: none;
