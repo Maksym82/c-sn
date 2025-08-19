@@ -389,7 +389,9 @@ button[type=submit] {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 12px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding: 8px;
   border-top: 1px solid #333;
   z-index: 1000;
@@ -398,7 +400,7 @@ button[type=submit] {
 .nav-item {
   background: none;
   border: none;
-  color: #a5a5a5;
+  color: #fef8f8;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -422,7 +424,7 @@ button[type=submit] {
 .casino-icon {
   width: 24px;
   height: 24px;
-  background-color: #999;
+  background-color: #fff8e8;
   mask-image: url("../images/casino-icon.svg");
   mask-repeat: no-repeat;
   mask-size: contain;
@@ -434,7 +436,7 @@ button[type=submit] {
 .menu-icon {
   width: 24px;
   height: 24px;
-  background-color: #999;
+  background-color: #fff8e8;
   mask-image: url("../images/menu-icon.svg");
   mask-repeat: no-repeat;
   mask-size: contain;
@@ -446,7 +448,7 @@ button[type=submit] {
 .bonus-icon {
   width: 24px;
   height: 24px;
-  background-color: #999;
+  background-color: #fff8e8;
   mask-image: url("../images/bonus-icon.svg");
   mask-repeat: no-repeat;
   mask-size: contain;
