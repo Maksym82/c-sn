@@ -395,6 +395,14 @@ button[type=submit] {
   padding: 8px;
   border-top: 1px solid #333;
   z-index: 1000;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+}
+
+.navigation__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .nav-item {

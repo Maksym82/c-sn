@@ -4,10 +4,15 @@
   min-width: 767.98px;
   background-color: gray;
   display: flex;
- justify-content: space-between;
+  justify-content: space-between;
   padding: 8px;
   border-top: 1px solid #333;
   z-index: 1000;
+  flex-shrink: 1;
+}
+
+.navigation__container {
+  display: flex;
 }
 
 .nav-item {
