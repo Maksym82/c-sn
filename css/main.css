@@ -443,16 +443,16 @@ button[type=submit] {
   -webkit-mask-size: contain;
 }
 
-.deposit-icon {
-  background-image: url("icons/deposit.svg");
-}
-
 .bonus-icon {
-  background-image: url("icons/bonus.svg");
-}
-
-.profile-icon {
-  background-image: url("icons/profile.svg");
+  width: 24px;
+  height: 24px;
+  background-color: #999;
+  mask-image: url("../images/bonus-icon.svg");
+  mask-repeat: no-repeat;
+  mask-size: contain;
+  -webkit-mask-image: url("../images/bonus-icon.svg");
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: contain;
 }
 
 .nav-item.active {
@@ -464,5 +464,9 @@ button[type=submit] {
 }
 
 .nav-item.active .menu-icon {
+  background-color: #ffd700;
+}
+
+.nav-item.active .bonus-icon {
   background-color: #ffd700;
 }/*# sourceMappingURL=main.css.map */
