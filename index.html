@@ -52,7 +52,7 @@
               autocomplete="on"
               required
             />
-            
+
             <label class="form__label" for="password">Password</label>
             <input
               class="form__input"
@@ -74,7 +74,12 @@
       <section class="hero">
         <div class="hero__container">
           <h1 class="hero__title">Snatch casino</h1>
-          <img class="hero__image" src="./images/hero.webp" fetchpriority="high" alt="Beautiful woman with money in casino atmosphere" />
+          <img
+            class="hero__image"
+            src="./images/hero.webp"
+            fetchpriority="high"
+            alt="Beautiful woman with money in casino atmosphere"
+          />
           <p class="hero__text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
             aliquam voluptatem, quae soluta error, saepe, porro vitae earum
@@ -86,28 +91,64 @@
       <!-- Navigation -->
       <div class="navigation__container">
         <nav class="mobile-nav">
-        <button class="nav-item active" data-label="Казино">
+          <button class="nav-item active" data-label="Казино">
             <span class="icon casino-icon"></span>
             <span class="label">Казино</span>
           </button>
           <button class="nav-item" data-label="Меню">
             <span class="icon menu-icon"></span>
             <span class="label">Меню</span>
+            <!-- Аккордеон-меню -->
+            <div id="fullscreenMenu" class="fullscreen-menu">
+              <div class="accordion">
+                <div class="accordion-item">
+                  <button class="accordion-header">
+                    <span>App</span>
+                    <span class="arrow">&#9660;</span>
+                  </button>
+                  <div class="accordion-content">
+                    <button>Aviator</button>
+                    <button>Balloon</button>
+                    <button>Mines</button>
+                    <button>Plinko</button>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <button class="accordion-header">
+                    <span>Table games</span>
+                    <span class="arrow">&#9660;</span>
+                  </button>
+                  <div class="accordion-content">
+                    <button>Aviator</button>
+                    <button>Balloon</button>
+                    <button>Mines</button>
+                    <button>Plinko</button>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <button class="accordion-header">
+                    <span>Live casino</span>
+                    <span class="arrow">&#9660;</span>
+                  </button>
+                  <div class="accordion-content">
+                    <button>Aviator</button>
+                    <button>Balloon</button>
+                    <button>Mines</button>
+                    <button>Plinko</button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </button>
-          <!-- <button class="nav-item" data-label="Депозит">
-            <span class="icon deposit-icon"></span>
-            <span class="label">Депозит</span>
-          </button> -->
           <button class="nav-item" data-label="Бонусы">
             <span class="icon bonus-icon"></span>
             <span class="label">Бонусы</span>
           </button>
-          <!-- <button class="nav-item" data-label="Профиль">
-            <span class="icon profile-icon"></span>
-            <span class="label">Профиль</span>
-          </button> -->
         </nav>
       </div>
+    </main>
     <script src="./js/login.js"></script>
     <script src="./js/nav.js"></script>
   </body>
