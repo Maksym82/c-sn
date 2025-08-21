@@ -479,8 +479,18 @@ button[type=submit] {
 .footer {
   margin: 0 auto;
   padding: 20px 0;
-  border-top: 1px solid gray;
   max-width: 480px;
+}
+
+.footer__line {
+  width: 100%;
+  height: 1px;
+  background-color: #3a3749;
+  margin-bottom: 16px;
+}
+
+.footer__line-down {
+  margin-top: 16px;
 }
 
 .footer .logo {
