@@ -44,4 +44,15 @@
   transition: color 0.25s linear;
 }
 
+.footer__text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  font-size: 12px;
+  line-height: 1.12;
+  color: #92989e;
+}
 
+.footer__text a {
+  color: $colorWhite;
+}
