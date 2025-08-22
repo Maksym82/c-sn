@@ -383,16 +383,16 @@ button[type=submit] {
 
 .mobile-nav {
   position: fixed;
+  left: 0;
   bottom: 0;
-  min-width: 767.98px;
+  width: 100%;
   background-color: gray;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding: 8px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 8px 0;
   border-top: 1px solid #333;
   z-index: 1000;
   -ms-flex-negative: 1;
@@ -478,7 +478,7 @@ button[type=submit] {
 /*  */
 .footer {
   margin: 0 auto;
-  padding: 20px 0;
+  padding: 20px 0 80px;
   max-width: 480px;
 }
 

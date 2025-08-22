@@ -1,11 +1,12 @@
 .mobile-nav {
   position: fixed;
+  left: 0;
   bottom: 0;
-  min-width: 767.98px;
+  width: 100%;
   background-color: gray;
   display: flex;
-  justify-content: space-between;
-  padding: 8px;
+  justify-content: space-around;
+  padding: 8px 0;
   border-top: 1px solid #333;
   z-index: 1000;
   flex-shrink: 1;
